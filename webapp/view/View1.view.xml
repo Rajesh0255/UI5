@@ -1,0 +1,29 @@
+<mvc:View id="v3"
+    xmlns:tnt="sap.tnt"
+    xmlns:m2="sap.m"
+    controllerName="fiori.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <VBox id="v1">
+        <Input
+            id="input1"
+            width="40%"
+            type="Number"
+            placeholder="input1"
+        />
+        <Input
+            id="input2"
+            width="40%"
+            type="Number"
+            placeholder="input2"
+        />
+        <Button
+            id="b1"
+            text="calucation"
+            press="onClick"
+        />
+        <Button id="b3" text="JSON MODEL" press="oJson"></Button>
+    </VBox>
+</mvc:View>
+
